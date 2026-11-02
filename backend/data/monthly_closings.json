@@ -1,0 +1,50 @@
+{
+  "closings": [
+    {
+      "closingId": "MC001",
+      "month": "2026-11",
+
+      "status": "finalized",
+
+      "summary": {
+        "totalMealExpenses": 18000,
+        "totalBillableMeals": 900,
+        "mealRate": 20,
+
+        "totalRiceConsumed": 500,
+        "totalRiceDeposited": 600
+      },
+
+      "members": [
+        {
+          "userId": "U001",
+
+          "meal": {
+            "actualMeals": 60,
+            "billableMeals": 75,
+            "mealCost": 1500,
+            "totalDeposits": 1200,
+            "closingBalance": -300
+          },
+
+          "rice": {
+            "deposited": 10,
+            "consumed": 8,
+            "balance": 2
+          },
+
+          "otherDues": {
+            "newDues": 1500,
+            "previousDues": 500,
+            "totalDue": 2000,
+            "paidAmount": 1000,
+            "remainingDue": 1000
+          }
+        }
+      ],
+
+      "finalizedBy": "U010",
+      "finalizedAt": "2026-11-30"
+    }
+  ]
+}

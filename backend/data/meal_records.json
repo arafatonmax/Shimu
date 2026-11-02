@@ -1,0 +1,34 @@
+{
+  "days": [
+    {
+      "date": "2026-11-01",
+      "month": "2026-11",
+
+      "members": [
+        {
+          "userId": "U001",
+          "ricePot": 2,
+          "regularMeals": 3,
+          "extraMeals": 1,
+          "guestMeals": 1
+        },
+        {
+          "userId": "U002",
+          "ricePot": 1,
+          "regularMeals": 3,
+          "extraMeals": 0,
+          "guestMeals": 0
+        },
+        {
+          "userId": "U003",
+          "ricePot": 0,
+          "regularMeals": 0,
+          "extraMeals": 0,
+          "guestMeals": 0
+        }
+      ],
+
+      "updatedBy": "U010"
+    }
+  ]
+}

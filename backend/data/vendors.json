@@ -1,0 +1,18 @@
+{
+  "vendors": [
+    {
+      "vendorId": "V001",
+      "name": "Rahim Grocery",
+      "phone": "01XXXXXXXXX",
+      "type": "grocery",
+      "status": "active"
+    },
+    {
+      "vendorId": "V002",
+      "name": "Karim Meat Shop",
+      "phone": "01XXXXXXXXX",
+      "type": "meat",
+      "status": "active"
+    }
+  ]
+}

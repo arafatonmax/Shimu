@@ -1,0 +1,157 @@
+
+/* Basic Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+/* Main Container */
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Login Card */
+.login-card {
+    background: white;
+    width: 100%;
+    max-width: 420px;
+    padding: 40px 35px;
+    border-radius: 16px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.07);
+}
+
+/* Logo */
+.logo {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.logo-icon {
+    width: 58px;
+    height: 58px;
+    background: #0f766e;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+
+.logo h1 {
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+.logo p {
+    font-size: 13px;
+    color: #64748b;
+}
+
+/* Welcome Section */
+.welcome {
+    margin-bottom: 25px;
+}
+
+.welcome h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.welcome p {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 13px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.form-group input:focus {
+    border-color: #0f766e;
+    box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.1);
+}
+
+/* Login Button */
+button {
+    width: 100%;
+    padding: 14px;
+    background: #0f766e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #115e59;
+}
+
+button span {
+    margin-left: 5px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 35px;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 20px;
+}
+
+.footer p {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.footer span {
+    font-size: 11px;
+    color: #94a3b8;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+    .login-card {
+        padding: 32px 23px;
+    }
+
+    .logo h1 {
+        font-size: 21px;
+    }
+}

@@ -1,0 +1,65 @@
+
+{
+  "accounts": [
+    {
+      "account_id": "ACC-001",
+      "linked_user_id": "001",
+      "username": "Rahim001",
+      "password_hash": null,
+      "role": "member",
+      "managed_blocks": [],
+      "account_status": "active",
+      "must_change_password": true
+    },
+    {
+      "account_id": "ACC-002",
+      "linked_user_id": "002",
+      "username": "Karim002",
+      "password_hash": null,
+      "role": "member",
+      "managed_blocks": [],
+      "account_status": "active",
+      "must_change_password": true
+    },
+    {
+      "account_id": "ACC-003",
+      "linked_user_id": "003",
+      "username": "Hasan003",
+      "password_hash": null,
+      "role": "member",
+      "managed_blocks": [],
+      "account_status": "active",
+      "must_change_password": false
+    },
+    {
+      "account_id": "ACC-004",
+      "linked_user_id": null,
+      "username": "ManagerA",
+      "password_hash": null,
+      "role": "manager",
+      "managed_blocks": ["A"],
+      "account_status": "active",
+      "must_change_password": true
+    },
+    {
+      "account_id": "ACC-005",
+      "linked_user_id": null,
+      "username": "ManagerB",
+      "password_hash": null,
+      "role": "manager",
+      "managed_blocks": ["B"],
+      "account_status": "active",
+      "must_change_password": true
+    },
+    {
+      "account_id": "ACC-006",
+      "linked_user_id": null,
+      "username": "PennyWise",
+      "password_hash": null,
+      "role": "admin",
+      "managed_blocks": ["A", "B"],
+      "account_status": "active",
+      "must_change_password": true
+    }
+  ]
+}

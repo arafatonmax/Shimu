@@ -1,0 +1,124 @@
+{
+  "users": [
+    {
+      "user_id": "001",
+      "personal_info": {
+        "full_name": "Rahim Ahmed",
+        "phone": "01700000001",
+        "emergency_contact": null,
+        "nid": null,
+        "date_of_birth": "2007-05-12"
+      },
+      "hostel_info": {
+        "block": "A",
+        "room": "101",
+        "monthly_rent": 2500,
+        "join_date": "2026-01-01",
+        "leave_date": null,
+        "membership_status": "active"
+      },
+      "public_info": {
+        "show_name": true,
+        "show_phone": false,
+        "show_block": true,
+        "show_room": true
+      }
+    },
+    {
+      "user_id": "002",
+      "personal_info": {
+        "full_name": "Karim Hasan",
+        "phone": "01700000002",
+        "emergency_contact": null,
+        "nid": null,
+        "date_of_birth": "2006-09-20"
+      },
+      "hostel_info": {
+        "block": "B",
+        "room": "201",
+        "monthly_rent": 3000,
+        "join_date": "2026-02-01",
+        "leave_date": null,
+        "membership_status": "active"
+      },
+      "public_info": {
+        "show_name": true,
+        "show_phone": false,
+        "show_block": true,
+        "show_room": true
+      }
+    },
+    {
+      "user_id": "003",
+      "personal_info": {
+        "full_name": "Hasan Mahmud",
+        "phone": "01700000003",
+        "emergency_contact": null,
+        "nid": null,
+        "date_of_birth": "2006-03-15"
+      },
+      "hostel_info": {
+        "block": "A",
+        "room": "102",
+        "monthly_rent": 2500,
+        "join_date": "2025-01-01",
+        "leave_date": "2026-08-31",
+        "membership_status": "ex_member"
+      },
+      "public_info": {
+        "show_name": true,
+        "show_phone": false,
+        "show_block": false,
+        "show_room": false
+      }
+    },
+    {
+      "user_id": "004",
+      "personal_info": {
+        "full_name": "Demo Student",
+        "phone": null,
+        "emergency_contact": null,
+        "nid": null,
+        "date_of_birth": null
+      },
+      "hostel_info": {
+        "block": "A",
+        "room": "103",
+        "monthly_rent": 2500,
+        "join_date": "2026-11-02",
+        "leave_date": null,
+        "membership_status": "active"
+      },
+      "public_info": {
+        "show_name": true,
+        "show_phone": false,
+        "show_block": true,
+        "show_room": true
+      }
+    },
+    {
+      "user_id": "005",
+      "personal_info": {
+        "full_name": "MD Akash",
+        "phone": "01581415867",
+        "emergency_contact": null,
+        "nid": null,
+        "date_of_birth": null
+      },
+      "hostel_info": {
+        "block": "B",
+        "room": "03",
+        "monthly_rent": 600,
+        "join_date": "2026-10-02",
+        "leave_date": null,
+        "membership_status": "active"
+      },
+      "public_info": {
+        "show_name": true,
+        "show_phone": false,
+        "show_block": true,
+        "show_room": true
+      }
+    }
+  ]
+}

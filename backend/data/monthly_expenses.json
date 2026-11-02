@@ -1,0 +1,39 @@
+
+{
+  "months": [
+    {
+      "month": "2026-11",
+
+      "common_expenses": {
+        "a_block_electricity": 4000,
+        "b_block_electricity": 3500,
+
+        "a_block_wifi": 700,
+        "b_block_wifi": 700,
+
+        "gas_bill": 2000
+      },
+
+      "per_person_expenses": {
+        "khala_bill": 300
+      },
+
+      "user_payments": [
+        {
+          "user_id": "001",
+          "status": {
+            "utility_statement": false,
+            "khala_statement": true
+          }
+        },
+        {
+          "user_id": "002",
+          "status": {
+            "utility_statement": true,
+            "khala_statement": false
+          }
+        }
+      ]
+    }
+  ]
+}

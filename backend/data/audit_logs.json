@@ -1,0 +1,24 @@
+{
+  "logs": [
+    {
+      "logId": "AL001",
+      "actorId": "U010",
+
+      "action": "UPDATE",
+      "target": "meal_records",
+      "targetId": "MR001",
+
+      "timestamp": "2026-11-05T12:30:00",
+
+      "before": {
+        "regularMeals": 2
+      },
+
+      "after": {
+        "regularMeals": 3
+      },
+
+      "reason": "Correction"
+    }
+  ]
+}

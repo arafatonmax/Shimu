@@ -1,0 +1,28 @@
+{
+  "transactions": [
+    {
+      "transactionId": "D001",
+      "userId": "U001",
+      "date": "2026-11-02",
+      "month": "2026-11",
+
+      "type": "meal_deposit",
+      "amount": 1000,
+
+      "receivedBy": "U010",
+      "note": ""
+    },
+    {
+      "transactionId": "D002",
+      "userId": "U001",
+      "date": "2026-11-03",
+      "month": "2026-11",
+
+      "type": "rice_deposit",
+      "ricePot": 10,
+
+      "receivedBy": "U010",
+      "note": ""
+    }
+  ]
+}

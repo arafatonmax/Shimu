@@ -1,0 +1,21 @@
+{
+  "transactions": [
+    {
+      "transactionId": "VT001",
+      "vendorId": "V001",
+      "shoppingId": "SR001",
+      "type": "credit_purchase",
+      "amount": 800,
+      "date": "2026-12-01"
+    },
+    {
+      "transactionId": "VT002",
+      "vendorId": "V001",
+      "shoppingId": "SR001",
+      "type": "payment",
+      "amount": 500,
+      "date": "2026-12-05",
+      "paidBy": "U010"
+    }
+  ]
+}

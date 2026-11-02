@@ -1,0 +1,58 @@
+{
+  "plans": [
+    {
+      "planId": "SP001",
+      "month": "2026-12",
+      "date": "2026-12-01",
+
+      "assignedUsers": [
+        "U001",
+        "U003"
+      ],
+
+      "productCodes": [
+        "P001",
+        "P002",
+        "P005",
+        "P010"
+      ],
+
+      "status": 0,
+
+      "actualExpenses": null,
+
+      "createdBy": "U010"
+    },
+    {
+      "planId": "SP002",
+      "month": "2026-12",
+      "date": "2026-12-03",
+
+      "assignedUsers": [
+        "U002"
+      ],
+
+      "productCodes": [
+        "P001",
+        "P006",
+        "P008"
+      ],
+
+      "status": 1,
+
+      "actualExpenses": {
+        "vegetables": 350,
+        "meat": 650,
+        "grocery": 300,
+        "other": 0,
+        "total": 1300
+      },
+
+      "completedBy": [
+        "U002"
+      ],
+
+      "completedAt": "2026-12-03"
+    }
+  ]
+}

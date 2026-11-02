@@ -1,0 +1,30 @@
+{
+  "memberships": [
+    {
+      "membershipId": "MB001",
+      "userId": "U001",
+
+      "joinDate": "2026-01-01",
+      "leaveDate": "2026-06-30",
+
+      "block": "A",
+      "room": "101",
+      "monthlyRent": 1500,
+
+      "status": "left"
+    },
+    {
+      "membershipId": "MB002",
+      "userId": "U001",
+
+      "joinDate": "2026-09-01",
+      "leaveDate": null,
+
+      "block": "B",
+      "room": "205",
+      "monthlyRent": 1700,
+
+      "status": "active"
+    }
+  ]
+}
