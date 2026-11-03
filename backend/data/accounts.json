@@ -1,11 +1,10 @@
-
 {
   "accounts": [
     {
       "account_id": "ACC-001",
       "linked_user_id": "001",
       "username": "Rahim001",
-      "password_hash": null,
+      "password_hash": "$2b$10$5vYWZ..RxPXYSA5/zSY6geGV58V9fLCdvFdxwcDuoSkIssh63jUnO",
       "role": "member",
       "managed_blocks": [],
       "account_status": "active",
@@ -15,7 +14,7 @@
       "account_id": "ACC-002",
       "linked_user_id": "002",
       "username": "Karim002",
-      "password_hash": null,
+      "password_hash": "$2b$10$RYWO632GkDEFuIYZUUxWiOhYl.bdt4gq9dnohRBWsLRmn8sl9QlS.",
       "role": "member",
       "managed_blocks": [],
       "account_status": "active",
@@ -35,9 +34,11 @@
       "account_id": "ACC-004",
       "linked_user_id": null,
       "username": "ManagerA",
-      "password_hash": null,
+      "password_hash": "$2b$10$J403cUAMBc0vA4n.EtdtO.jxjCS7c.vaihaG6qnERseGJdCIZO12.",
       "role": "manager",
-      "managed_blocks": ["A"],
+      "managed_blocks": [
+        "A"
+      ],
       "account_status": "active",
       "must_change_password": true
     },
@@ -47,7 +48,9 @@
       "username": "ManagerB",
       "password_hash": null,
       "role": "manager",
-      "managed_blocks": ["B"],
+      "managed_blocks": [
+        "B"
+      ],
       "account_status": "active",
       "must_change_password": true
     },
@@ -55,9 +58,12 @@
       "account_id": "ACC-006",
       "linked_user_id": null,
       "username": "PennyWise",
-      "password_hash": null,
+      "password_hash": "$2b$10$OnCFI8EUv.E9/nghU6b3muwcf.OTVitq1elSfnCgCF3A.tp6Nm3FW",
       "role": "admin",
-      "managed_blocks": ["A", "B"],
+      "managed_blocks": [
+        "A",
+        "B"
+      ],
       "account_status": "active",
       "must_change_password": true
     }

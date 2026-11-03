@@ -247,4 +247,94 @@ router.post("/", async (req, res) => {
 });
 
 
+ // PUT - Update an existing student's hostel information
+router.put("/:id", async (req, res) => {
+    try {
+        const userId = req.params.id;
+
+        const {
+            block,
+            room,
+            monthly_rent
+        } = req.body;
+
+        // Basic validation
+        if (
+            !["A", "B"].includes(block) ||
+            typeof room !== "string" ||
+            room.trim() === "" ||
+            !Number.isFinite(monthly_rent) ||
+            monthly_rent <= 0
+        ) {
+            return res.status(400).json({
+                success: false,
+                message: "Missing or invalid hostel information."
+            });
+        }
+
+        // Read existing JSON data
+        const fileContent = await fs.readFile(
+            usersFilePath,
+            "utf-8"
+        );
+
+        const jsonData = JSON.parse(fileContent);
+        const users = jsonData.users;
+
+        // Check data format
+        if (!Array.isArray(users)) {
+            return res.status(500).json({
+                success: false,
+                message: "Invalid users data format."
+            });
+        }
+
+        // Find student
+        const user = users.find(
+            item => item.user_id === userId
+        );
+
+        // Check student existence
+        if (!user) {
+            return res.status(404).json({
+                success: false,
+                message: "User not found."
+            });
+        }
+
+        // Update hostel information
+        user.hostel_info.block = block;
+        user.hostel_info.room = room.trim();
+        user.hostel_info.monthly_rent = monthly_rent;
+
+        // Save updated JSON
+        await fs.writeFile(
+            usersFilePath,
+            JSON.stringify(jsonData, null, 2),
+            "utf-8"
+        );
+
+        // Send response
+        res.json({
+            success: true,
+            message: "Student information updated successfully.",
+            data: {
+                user_id: user.user_id,
+                block: user.hostel_info.block,
+                room: user.hostel_info.room,
+                monthly_rent: user.hostel_info.monthly_rent
+            }
+        });
+
+    } catch (error) {
+        console.error("Update Student API Error:", error.message);
+
+        res.status(500).json({
+            success: false,
+            message: "Unable to update student information."
+        });
+    }
+});
+
+
 module.exports = router;

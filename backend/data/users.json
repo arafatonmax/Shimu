@@ -75,16 +75,16 @@
     {
       "user_id": "004",
       "personal_info": {
-        "full_name": "Demo Student",
+        "full_name": "S demo Student",
         "phone": null,
         "emergency_contact": null,
         "nid": null,
         "date_of_birth": null
       },
       "hostel_info": {
-        "block": "A",
-        "room": "103",
-        "monthly_rent": 2500,
+        "block": "B",
+        "room": "105",
+        "monthly_rent": 2800,
         "join_date": "2026-11-02",
         "leave_date": null,
         "membership_status": "active"
