@@ -193,6 +193,18 @@ router.get(
     }
 );
 
+router.get(
+    "/member-test",
+    authenticateToken,
+    requireRole("member"),
+    (req, res) => {
+        res.json({
+            success: true,
+            message: "Member access granted",
+            account: req.user
+        });
+    }
+);
 
 
 module.exports = router;
